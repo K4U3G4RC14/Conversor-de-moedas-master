@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+#conteiner {
+    background-color: #F4F4F4;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 23.4rem;
+    height: 48rem;
+    margin: 5rem auto;
+}
+
+header {
+    width: 23.4rem;
+    height: 4rem;
+    background-color: #1B83E2;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    display: block;
+    color: #777777;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+select {
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    width: 20.4rem;
+    height: 3rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 0.2rem;
+    appearance: none;
+    padding: 1rem;
+    outline-style: none;
+}
+
+option {
+    background-color: #1f1f1f;
+    color: rgba(255, 255, 255, 0.872);
+    padding: 1rem;
+    font-size: 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+input {
+    display: block;
+    width: 20.45rem;
+    height: 3rem;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0.5rem;
+    outline-style: none;
+
+}
+
+button {
+    width: 20.45rem;
+    height: 3rem;
+    background: #1B83E2;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    color: #F4F4F4;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+
+button:hover {
+    background: #0d66bacb;
+    width: 20.44rem;
+    height: 3rem;
+    color: #c1c1c1;
+    font-weight: bolder;
+}
+
+button:active {
+    border: 2px solid black;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    transition: 0s;
+}
+
+#result {
+    width: 20.45rem;
+    height: 18rem;
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    padding: 1rem;
+
+}
+
+.sectionMoney {
+    text-align: center;
+}
+
+.IMG {
+    margin: 1rem auto;
+    display: block;
+    width: 2.19rem;
+    height: 3.13rem;
+}
+
+#money-flag{
+    width: 2.75rem;
+    height: 2.75rem;
+}
+
+.value {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.125rem;
+    color: #1B83E2;
+}
+
+#money {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: #777777;
+}

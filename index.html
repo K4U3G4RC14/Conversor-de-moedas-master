@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>CodeClub Convert Money</title>
+</head>
+
+<body>
+
+    <div id="conteiner">
+        <header>
+            <h1> CodeClub Convert Money </h1>
+        </header>
+
+        <main>
+            <label>
+                Converter <b> de </b>
+                <select>
+                    <option >
+                        R$ <b> Real Brasileiro </b>
+                    </option>
+                </select>
+            </label>
+
+            <label>
+                Converter <b> para </b>
+                <select id="currency-select">
+                    <option>
+                        US$ Dolar Americano
+                    </option>
+
+                    <option>
+                        € Euro
+                    </option>
+
+                    <option>
+                        BTC Bitcoin
+                    </option>
+                </select>
+            </label>
+
+            <label>
+                Valor
+                <input placeholder="R$ - - - -,00"  id="input-real" type="number"/>
+            </label>
+
+            <button id="btn" type="button"> Converter </button>
+
+            <section id="result">
+                <div class="sectionMoney">
+                    <img src="./assets/brasil 2.svg" alt="bandeira">
+                    <p class="money"> Real </p>
+                    <p class="value" id="text-real"> R$  </p>
+                </div>
+
+                <img src="./assets/Vector@2x.png" alt="seta" class="IMG">
+
+                <div class="sectionMoney">
+                    <img src="./assets/estados-unidos (1) 1.svg" alt="bandeira" id="money-flag">
+                    <p class="money" id="currency" > Dólar Americano </p>
+                    <p class="value" id="other-money"> US$  </p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+
+<script src="./script.js"></script>
+</html>
