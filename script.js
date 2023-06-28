@@ -54,6 +54,7 @@ const change_currency = () => {
     if (select.value === "BTC Bitcoin") {
         currency_text.innerHTML = "BTC"
         flag.src = "./assets/bitcoin.png"
+        alert("Alguns valores não são mostrados por serem muitos baixos")
     }
 
     convet_value()
