@@ -6,11 +6,11 @@
 }
 
 body {
-    background-color: #E5E5E5;
+    background-color: #b0d3f3;
 }
 
 #conteiner {
-    background-color: #F4F4F4;
+    background-color: #d3d3d3;
     box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
     width: 23.4rem;
@@ -125,6 +125,7 @@ button:active {
     border: 1px solid #1B83E2;
     border-radius: 4px;
     padding: 1rem;
+    background-color: #E5E5E5;
 
 }
 
