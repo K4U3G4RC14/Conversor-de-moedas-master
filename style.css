@@ -41,11 +41,11 @@ main {
 label {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.875rem;
     line-height: 1.125rem;
     display: block;
-    color: #777777;
+    color: #000000;
     margin-top: 1rem;
     font-size: 1rem;
 }

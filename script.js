@@ -17,6 +17,43 @@ const convet_value = async () => {
         { style: 'currency', currency: 'brl' }
     ).format(real_value);
 
+    /*
+    switch (real_value) {
+        case "":
+            if(real_value === ""){
+                alert("Você precisa inserrir um valor antes")
+            }
+            break;
+        case real_value:
+            btn.setAttribute("disabled", false)
+            if (select.value === "US$ Dolar Americano") {
+                other_money.innerHTML = new Intl.NumberFormat('pt-US',
+                    { style: 'currency', currency: 'USD' }
+                ).format(real_value / dolar);
+            }
+        
+            if (select.value === "€ Euro") {
+                other_money.innerHTML = new Intl.NumberFormat('pt-DE',
+                    { style: 'currency', currency: 'EUR' }
+                ).format(real_value / euro);
+            }
+        
+            if (select.value === "BTC Bitcoin") {
+                other_money.innerHTML = new Intl.NumberFormat('pt-BR',
+                    { style: 'currency', currency: 'BTC' }
+                ).format(real_value / cripto);
+            }
+            break
+            default:
+            break;
+    }
+    */
+
+
+    if(real_value === ""){
+        alert("Você precisa inserrir um valor antes")
+    }
+
     if (select.value === "US$ Dolar Americano") {
         other_money.innerHTML = new Intl.NumberFormat('pt-US',
             { style: 'currency', currency: 'USD' }
@@ -34,6 +71,7 @@ const convet_value = async () => {
             { style: 'currency', currency: 'BTC' }
         ).format(real_value / cripto);
     }
+    
 }
 
 const change_currency = () => {
