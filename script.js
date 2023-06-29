@@ -51,7 +51,7 @@ const convet_value = async () => {
 
 
     if(real_value === ""){
-        alert("Você precisa inserrir um valor antes")
+        alert("Você precisa inserir um valor antes")
     }
 
     if (select.value === "US$ Dolar Americano") {
